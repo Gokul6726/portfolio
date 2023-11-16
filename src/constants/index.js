@@ -28,6 +28,10 @@ import {
   threejs,
   web2,
   blog,
+  c,
+  cpp,
+  python,
+  arduino,
 } from "../assets";
 
 export const navLinks = [
@@ -69,6 +73,18 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -121,6 +137,10 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
+  {
+    name: "arduino",
+    icon: arduino,
+  },
 ];
 
 const experiences = [
